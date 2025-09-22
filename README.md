@@ -20,7 +20,3 @@ A full-stack task management application with AI-powered features.
 [Demo link will be added here]
 EOF
 
-# Add and commit the README
-git add README.md
-git commit -m "Add README"
-git push
