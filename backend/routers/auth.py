@@ -10,6 +10,7 @@ from auth import (
     get_password_hash,
     verify_password,
     create_access_token,
+    get_current_user,
     ACCESS_TOKEN_EXPIRE_MINUTES
 )
 
@@ -72,5 +73,4 @@ def login(
 @router.get("/me", response_model=UserResponse)
 def get_me(current_user: User = Depends(get_current_user)):
     """Get current user information"""
-    from auth import get_current_user
     return current_user
