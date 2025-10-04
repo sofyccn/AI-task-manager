@@ -4,7 +4,7 @@ backend/venv/
 backend/__pycache__/
 
 # Environment variables
-frontend/.env
+frontend-dev/.env
 backend/.env
 
 # Build outputs  
